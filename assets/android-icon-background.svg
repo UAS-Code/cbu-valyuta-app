@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <!-- Премиум Зумрад градиент -->
+    <radialGradient id="cbuRadial" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#0a6b40" />
+      <stop offset="55%" stop-color="#044327" />
+      <stop offset="100%" stop-color="#012213" />
+    </radialGradient>
+    
+    <!-- Банк банкнотаси услубидаги нафис гильош/ҳимоя ҳалқалари -->
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01" />
+    </linearGradient>
+  </defs>
+
+  <!-- Асосий Фон -->
+  <rect width="1024" height="1024" fill="url(#cbuRadial)" />
+
+  <!-- Банкнота услубидаги геометрик ҳалқалар (Safe zone атрофида) -->
+  <circle cx="512" cy="512" r="440" fill="none" stroke="url(#ringGrad)" stroke-width="2" stroke-dasharray="8 8" />
+  <circle cx="512" cy="512" r="400" fill="none" stroke="url(#ringGrad)" stroke-width="1.5" />
+  <circle cx="512" cy="512" r="360" fill="none" stroke="url(#ringGrad)" stroke-width="3" stroke-dasharray="16 12" />
+  <circle cx="512" cy="512" r="320" fill="none" stroke="url(#ringGrad)" stroke-width="1" />
+  
+  <!-- Марказий ёруғлик аксенти -->
+  <circle cx="512" cy="480" r="260" fill="#ffffff" opacity="0.03" />
+</svg>

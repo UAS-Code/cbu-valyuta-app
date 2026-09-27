@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#065f46" />
+      <stop offset="100%" stop-color="#022c19" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Асосий Фон (Фон тўртбурчак) -->
+  <rect width="1024" height="1024" rx="228" fill="url(#bgGrad)" />
+
+  <!-- Ички безак доираси -->
+  <circle cx="512" cy="512" r="390" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="4" />
+  <circle cx="512" cy="512" r="360" fill="rgba(255,255,255,0.03)" />
+
+  <!-- Банк биноси эмблемаси (Оқ/Олтин) -->
+  <g filter="url(#dropShadow)" transform="translate(0, -25)">
+    <!-- Том (Педестал) -->
+    <path d="M 512 260 L 290 380 L 734 380 Z" fill="#ffffff" />
+    <circle cx="512" cy="335" r="18" fill="url(#goldGrad)" />
+    
+    <!-- Том ости тўсини -->
+    <rect x="290" y="390" width="444" height="24" rx="6" fill="#ffffff" />
+
+    <!-- 4 та Устун (Колонналар) -->
+    <rect x="330" y="426" width="44" height="190" rx="8" fill="#ffffff" />
+    <rect x="428" y="426" width="44" height="190" rx="8" fill="#ffffff" />
+    <rect x="552" y="426" width="44" height="190" rx="8" fill="#ffffff" />
+    <rect x="650" y="426" width="44" height="190" rx="8" fill="#ffffff" />
+
+    <!-- Пойдевор (База) -->
+    <rect x="270" y="626" width="484" height="28" rx="8" fill="#ffffff" />
+    <rect x="240" y="662" width="544" height="34" rx="10" fill="#ffffff" />
+  </g>
+
+  <!-- Валюта айирбошлаш белгиси (Пастки марказда) -->
+  <g transform="translate(512, 770)" filter="url(#dropShadow)">
+    <circle cx="0" cy="0" r="74" fill="url(#goldGrad)" />
+    <!-- Стрелкалар (Exchange Arrows) -->
+    <path d="M -30 -10 L 15 -10 M 5 -20 L 20 -10 L 5 0" fill="none" stroke="#044327" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 30 12 L -15 12 M -5 2 L -20 12 L -5 22" fill="none" stroke="#044327" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Ўзбекистон байроғи ингичка чизиғи (Пастда) -->
+  <g transform="translate(432, 920)">
+    <rect x="0" y="0" width="32" height="6" rx="3" fill="#1eb53a" />
+    <rect x="38" y="0" width="8" height="6" rx="2" fill="#d62612" />
+    <rect x="50" y="0" width="60" height="6" rx="3" fill="#ffffff" />
+    <rect x="114" y="0" width="8" height="6" rx="2" fill="#d62612" />
+    <rect x="126" y="0" width="34" height="6" rx="3" fill="#0099b5" />
+  </g>
+</svg>

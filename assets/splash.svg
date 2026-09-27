@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1242 2436" width="1242" height="2436">
+  <!-- Фон -->
+  <rect width="1242" height="2436" fill="#044327" />
+
+  <!-- Марказий Логотип -->
+  <g transform="translate(621, 1050)">
+    <!-- Ташқи доира -->
+    <circle cx="0" cy="0" r="140" fill="rgba(255,255,255,0.08)" />
+    <circle cx="0" cy="0" r="110" fill="#065f46" />
+
+    <!-- Кичик банк рамзи -->
+    <path d="M 0 -50 L -60 -15 L 60 -15 Z" fill="#ffffff" />
+    <rect x="-60" y="-10" width="120" height="6" fill="#ffffff" />
+    <rect x="-50" y="0" width="12" height="50" fill="#ffffff" />
+    <rect x="-22" y="0" width="12" height="50" fill="#ffffff" />
+    <rect x="10" y="0" width="12" height="50" fill="#ffffff" />
+    <rect x="38" y="0" width="12" height="50" fill="#ffffff" />
+    <rect x="-65" y="52" width="130" height="8" fill="#ffffff" />
+  </g>
+
+  <!-- Матнлар -->
+  <text x="621" y="1280" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="3">ВАЛЮТА КУРСЛАРИ</text>
+  <text x="621" y="1325" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#a7f3d0" text-anchor="middle">Ўзбекистон Республикаси Марказий Банки</text>
+
+  <!-- Пастки байроқ чизиғи -->
+  <g transform="translate(571, 2300)">
+    <rect x="0" y="0" width="20" height="4" rx="2" fill="#1eb53a" />
+    <rect x="24" y="0" width="6" height="4" rx="1" fill="#d62612" />
+    <rect x="34" y="0" width="32" height="4" rx="2" fill="#ffffff" />
+    <rect x="70" y="0" width="6" height="4" rx="1" fill="#d62612" />
+    <rect x="80" y="0" width="20" height="4" rx="2" fill="#0099b5" />
+  </g>
+</svg>

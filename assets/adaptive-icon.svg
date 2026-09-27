@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Банк биноси эмблемаси (Марказда 66% майдонда бўлиши керак) -->
+  <g transform="translate(0, 0)">
+    <!-- Том -->
+    <path d="M 512 300 L 310 410 L 714 410 Z" fill="#ffffff" />
+    <circle cx="512" cy="370" r="16" fill="#fbbf24" />
+    
+    <!-- Тўсин -->
+    <rect x="310" y="420" width="404" height="22" rx="6" fill="#ffffff" />
+
+    <!-- 4 та Устун -->
+    <rect x="346" y="452" width="40" height="170" rx="8" fill="#ffffff" />
+    <rect x="436" y="452" width="40" height="170" rx="8" fill="#ffffff" />
+    <rect x="548" y="452" width="40" height="170" rx="8" fill="#ffffff" />
+    <rect x="638" y="452" width="40" height="170" rx="8" fill="#ffffff" />
+
+    <!-- Пойдевор -->
+    <rect x="290" y="632" width="444" height="26" rx="8" fill="#ffffff" />
+    <rect x="264" y="666" width="496" height="30" rx="8" fill="#ffffff" />
+
+    <!-- Олтин алмашинув белгиси -->
+    <circle cx="512" cy="740" r="60" fill="#fbbf24" />
+    <path d="M 488 732 L 526 732 M 518 724 L 530 732 L 518 740" fill="none" stroke="#044327" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 536 748 L 498 748 M 506 740 L 494 748 L 506 756" fill="none" stroke="#044327" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
