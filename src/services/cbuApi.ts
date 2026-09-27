@@ -1,4 +1,4 @@
-// cbu-valyuta-app/src/services/cbuApi.ts
+// src/services/cbuApi.ts
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Currency } from '../types/currency';

@@ -1,4 +1,4 @@
-// cbu-valyuta-app/src/components/FlagIcon.tsx
+// src/components/FlagIcon.tsx
 
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';

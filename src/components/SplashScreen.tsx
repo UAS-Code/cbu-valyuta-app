@@ -1,4 +1,4 @@
-// FILE: cbu-valyuta-app/src/components/SplashScreen.tsx
+// src/components/SplashScreen.tsx
 
 import { ArrowRightLeft, ShieldCheck, TrendingUp } from 'lucide-react-native';
 import React, { useEffect, useRef, useState } from 'react';

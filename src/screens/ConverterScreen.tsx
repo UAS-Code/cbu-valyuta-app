@@ -1,4 +1,4 @@
-// cbu-valyuta-app/src/screens/ConverterScreen.tsx
+// src/screens/ConverterScreen.tsx
 
 import { ArrowLeft, ArrowUpDown, Delete, TrendingDown, TrendingUp } from 'lucide-react-native';
 import React, { useMemo, useState } from 'react';

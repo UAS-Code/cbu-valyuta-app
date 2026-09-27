@@ -1,4 +1,4 @@
-// cbu-valyuta-app/src/components/CurrencyModal.tsx
+// src/components/CurrencyModal.tsx
 import { Check, Search, X } from 'lucide-react-native';
 import React, { useState } from 'react';
 import { FlatList, Modal, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';

@@ -1,4 +1,4 @@
-// cbu-valyuta-app/src/components/Background.tsx
+// src/components/Background.tsx
 import React, { ReactNode } from 'react';
 import { Dimensions, StyleSheet, View, ViewStyle } from 'react-native';
 

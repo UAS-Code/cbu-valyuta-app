@@ -1,4 +1,4 @@
-// cbu-valyuta-app/src/types/currency.ts
+// src/types/currency.ts
 export interface Currency {
     code: string;
     name: string; // Ўзбек кирилл

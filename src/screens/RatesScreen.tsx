@@ -1,4 +1,4 @@
-// cbu-valyuta-app/src/screens/RatesScreen.tsx
+// src/screens/RatesScreen.tsx
 
 import { ArrowUpDown, Search, Star, TrendingDown, TrendingUp, X } from 'lucide-react-native';
 import React, { useMemo, useState } from 'react';
