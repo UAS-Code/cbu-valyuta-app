@@ -59,11 +59,9 @@ export const RatesScreen: React.FC<RatesScreenProps> = ({
     const sections = useMemo(() => {
         const data: any[] = [];
         if (popularList.length > 0) {
-            data.push({ type: 'header', title: 'Энг оммабоп валюталар' });
             data.push(...popularList.map((item) => ({ type: 'popular_item', data: item })));
         }
         if (otherList.length > 0) {
-            data.push({ type: 'header', title: 'Бошқа валюталар' });
             data.push(...otherList.map((item) => ({ type: 'other_item', data: item })));
         }
         return data;
